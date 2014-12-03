@@ -1,6 +1,6 @@
 Name:       kernel-adaptation-pc
 
-%define kernel_version_build %{version}-%{release}
+%define kernel_version_build 3.6.11-%{release}
 %define kernel_devel_dir %{_prefix}/src/kernels/%{kernel_version_build}
 %define kernel_version %{version}
 
